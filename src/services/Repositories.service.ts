@@ -9,7 +9,7 @@ export class RequestRepositories {
   }
 
   private filterLanguage(lang: string, repos: githubRepositories[]) {
-    return repos
+    const newRepos = repos
       .filter(e => e.language?.toLowerCase() === lang.toLowerCase())
       .sort((a, b) => new Date(a.created_at).getTime() - new Date(b.created_at).getTime())
       .slice(0, 5)
@@ -26,5 +26,13 @@ export class RequestRepositories {
           },
         })
       );
+    return {
+      content: {
+        itemType: "application/vnd.lime.document-select+json",
+        items: [
+          ...newRepos,
+        ]
+      }
+    }
   }
 }
