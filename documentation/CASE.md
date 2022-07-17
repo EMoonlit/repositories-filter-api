@@ -1,3 +1,3 @@
 ## CASE
 
-- Encontrar repositórios no GitHub por organização e filtrar por linguagem.
+&check; Encontrar repositórios no GitHub por organização e filtrar por linguagem.
