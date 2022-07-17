@@ -13,12 +13,18 @@ export class RequestRepositories {
       .filter(e => e.language?.toLowerCase() === lang.toLowerCase())
       .sort((a, b) => new Date(a.created_at).getTime() - new Date(b.created_at).getTime())
       .slice(0, 5)
-      .map(e => ({
-        id: e.id,
-        name: e.name,
-        lang: e.language,
-        date: e.created_at
-      })
+      .map(e => (
+        {
+          header: {
+            type: "application/vnd.lime.media-link+json",
+            value: {
+              title: e.full_name,
+              text: e.description,
+              type: "image/jpeg",
+              uri: e.owner.avatar_url
+            }
+          },
+        })
       );
   }
 }
