@@ -31,5 +31,7 @@ site para suporte no url-encoded: https://www.urlencoder.org/
 Dependências: Node v16
 
 TODO:
+Adicionar vídeo de execução
 Adicionar imagem docker no docker hub e tutorial de execução.
-Adicionar docker-compose para futura integração com outros serviços.
+
+- &check; Adicionar docker-compose para futura integração com outros serviços.
