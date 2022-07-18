@@ -20,11 +20,9 @@ app.get('/', (_req, res) => {
 app.get('/find', async (req, res) => {
   const { organization, lang } = req.query;
 
-  const url = `https://api.github.com/orgs/${organization}/repos`;
+  const url = `https://api.github.com/orgs/${organization}/repos?per_page=100`;
 
   let repositoriesInCache = cache.get(`${organization}-${lang}`);
-  console.log('repositoriesInCache', repositoriesInCache);
-
 
   if (repositoriesInCache === undefined) {
     const repository = new RequestRepositories()
