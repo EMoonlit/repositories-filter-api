@@ -27,11 +27,21 @@ obs: em caso de linguagens ou organizações com caracteres especiais optar por 
 site para suporte no url-encoded: https://www.urlencoder.org/
 
 ### Descrição para execução local
+Com docker-compose - recomendado
+![demonstração](https://github.com/EMoonlit/repositories-filter-api/blob/main/assets/API-example.gif)
+Dependências: Docker e docker-compose
 
-Dependências: Node v16
+Clone o repositório, configure a variável de ambiente removendo o .example do .env
+Inicie um container com o comando docker-compose up -d
+
+Para execução local sem usar o compose siga os seguintes passos:
+Clone o repositório
+Tenha o node instalado, preferêncialmente na v16
+Configure a variável de ambiente removendo o .example do .env
+Instale as dependências, npm install
+Execute o comando npm run dev, lembrando que a API usará a porta setada no .env ou 3000.
 
 TODO:
-Adicionar vídeo de execução
 Adicionar imagem docker no docker hub e tutorial de execução.
 
 - &check; Adicionar docker-compose para futura integração com outros serviços.
