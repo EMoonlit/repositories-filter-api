@@ -6,7 +6,9 @@
 - &check; adicionar estrutura basica, api e flow;
 - &cross; refatorar API aplicando melhores práticas;
 - &cross; documentar readme;
-- &cross; inserir nova feature -> busca em repos de usuários;
+- &cross; inserir nova feature -> busca em repositórios públicos de usuários;
+- &cross; inserir nova feature -> filtros dinâmicos;
+- &cross; analizar -> necessidade de persistência em banco;
 
 ### Descrição de uso autal
 
@@ -21,7 +23,7 @@ organization
 lang
 
 exemplo: https://repositories-filter-api.herokuapp.com/find?organization=takenet&lang=C%23
-\*obs: em caso de linguagens ou organizações com caracteres especiais optar por passar o valor encodado C%23 equivale a C#.
+obs: em caso de linguagens ou organizações com caracteres especiais optar por passar o valor encodado C%23 equivale a C#.
 site para suporte no url-encoded: https://www.urlencoder.org/
 
 ### Descrição para execução local
