@@ -7,7 +7,7 @@
     "postinstall": "npm run build",
     "build": "tsc",
     "start": "node .",
-    "dev": "sucrase-node src/index.ts",
+    "dev": "sucrase-node api/src/index.ts",
     "test": "jest"
   },
   "keywords": [],

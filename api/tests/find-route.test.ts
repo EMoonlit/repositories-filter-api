@@ -93,7 +93,7 @@ const mockedAxios = axios as jest.Mocked<typeof axios>;
 
 describe('Find Route', () => {
   describe('GET /find', () => {
-    test('Should return 200 on sucess', async () => {
+    test('Should return 200 on success', async () => {
       mockedAxios.get.mockResolvedValueOnce(responseMock);
       const response = await request(app)
         .get('/find')

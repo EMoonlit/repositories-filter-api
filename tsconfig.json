@@ -7,10 +7,10 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "sourceMap": true,
-    "rootDir": "src"
+    "rootDir": "api/src"
   },
   "include": [
-    "src"
+    "api/src"
   ],
   "exclude": [
     "**/*.spec.ts",
