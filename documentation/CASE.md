@@ -15,3 +15,4 @@
 -  [ ] inserir nova feature -> filtros dinâmicos;
 -  [x] Adicionar docker-compose para futura integração com outros serviços.
 -  [ ] analizar -> necessidade de persistência em banco;
+-  [ ] adicionar conferência da API do GitHub, e ou demais API's que forem consumidas.
