@@ -48,3 +48,7 @@ Para execução local sem usar o *compose* siga os seguintes passos:
 	- Execute o comando `npm run dev`
 
 *Lembrando que a API usará a porta setada no .env ou 3000.*
+
+<hr>
+
+*[Todos](https://github.com/EMoonlit/repositories-filter-api/blob/main/documentation/CASE.md)*
