@@ -7,7 +7,7 @@ Aplicação com finalidade de buscar e filtrar dados de repositórios consumindo
 
 ## Descrição de uso:
 
-**Deploy no Heroku:**  [https://repositories-filter-api.herokuapp.com/](https://repositories-filter-api.herokuapp.com/)
+**Deploy no Railway:**  [https://repositories-filter-api-production.up.railway.app/](https://repositories-filter-api-production.up.railway.app/)
 
 ### Endpoints:
 
@@ -17,7 +17,8 @@ Aplicação com finalidade de buscar e filtrar dados de repositórios consumindo
 - organization
 - lang
 
-*Exemplo:*  [https://repositories-filter-api.herokuapp.com/find?organization=takenet&lang=C%23](https://repositories-filter-api.herokuapp.com/find?organization=takenet&lang=C%23)
+*Exemplo:*  [https://repositories-filter-api-production.up.railway.app/find?organization=takenet&lang=C%23](https://repositories-filter-api-production.up.railway.app/find?organization=takenet&lang=C%23)
+
 
 *OBS:* Em caso de linguagens ou organizações com caracteres especiais optar por passar o valor encodado C%23 equivale a C#.
 
